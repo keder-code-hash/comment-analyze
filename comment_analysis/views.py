@@ -8,7 +8,7 @@ from rest_framework.views import APIView,status
 
 from django.http import HttpResponse
 
-bert_model=transformers.TFBertModel.from_pretrained("./staticfiles/model/bert-base-uncased")
+bert_model=transformers.TFBertModel.from_pretrained("bert-base-uncased")
 tokenizer=transformers.BertTokenizer.from_pretrained("bert-base-uncased", do_lower_case=True) 
  
 
