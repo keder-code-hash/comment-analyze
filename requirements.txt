@@ -3,3 +3,4 @@ numpy==1.21.4
 transformers==4.15.0
 keras==2.7.0
 streamlit==1.4.0
+matplotlib==3.5.1
