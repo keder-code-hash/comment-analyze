@@ -1,5 +1,5 @@
 # streamlit configuration 
-api_mode_on=True
+api_mode_on=False
 if api_mode_on:
     import os 
     os.system('uvicorn main:app --reload ')
